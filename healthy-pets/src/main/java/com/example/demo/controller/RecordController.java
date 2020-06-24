@@ -16,7 +16,7 @@ import com.example.demo.model.Record;
 import com.example.demo.repository.RecordsRepository;
 
 @Controller
-@RequestMapping("/record/")
+@RequestMapping("/records/")
 public class RecordController {
 	
 	private final RecordsRepository recordsRepository;

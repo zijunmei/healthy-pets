@@ -23,16 +23,16 @@ public class Record {
 	
 	
 	@NotBlank(message = "Date is mandatory")
-	@Column(name = "Date")
-	private Date date;
+	@Column(name = "date")
+	private long date;
 	
 	@NotBlank(message = "Event is mandatory")
-	@Column(name = "Event")
-	private Event event;
+	@Column(name = "event")
+	private String event;
 	
 	public Record() {}
 	
-	public Record(String pet, Date date, Event event)
+	public Record(String pet, long date, String event)
 	{
 		this.name = pet;
 		this.date = date;
@@ -56,19 +56,19 @@ public class Record {
 	{
 		return name;
 	}
-	public void setDate(Date date)
+	public void setDate(long date)
 	{
 		this.date = date;
 	}
-	public Date getDate()
+	public long getDate()
 	{
 		return date;
 	}
-	public void setEvent(Event event)
+	public void setEvent(String event)
 	{
 		this.event = event;
 	}
-	public Event getEvent()
+	public String getEvent()
 	{
 		return event;
 	}
