@@ -21,7 +21,7 @@ Task 12: Testing for the entire work<br />
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" />
 ## Milestone 1
- <img src="schedual5.png"
+ <img src="p1.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" />
 ## Release Notes
