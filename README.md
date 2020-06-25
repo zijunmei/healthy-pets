@@ -26,5 +26,7 @@ As the schedual table shows, for malestone 1, we simply set up the common reposi
  <img src="p1.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" />
-As the picture showed above, run the java file which called **HealthPetsApplication.java**.After run the file successfully, open the browser and go to URL: http://localhost:8080/ to see the features of the applcation we made so far.
+As the picture showed above, run the java file which called **HealthPetsApplication.java**. After run the file successfully, open the browser and go to URL: http://localhost:8080/ to see the features of the applcation we made so far.
 ## Release Notes
+
+Since this is the first time we try to make a web application, we barely have a direction to the target so that we have to keep in touch all the time for making our work is on the track.
