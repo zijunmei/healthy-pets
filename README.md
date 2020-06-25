@@ -17,7 +17,11 @@ Task 10: Connecting the Login page to the user database<br />
 Task 11: Realize the function of the verification of users<br />
 Task 12: Testing for the entire work<br />
 ## Schedule Table
-
+ <img src="schedual5.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />
 ## Milestone 1
-
+ <img src="schedual5.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />
 ## Release Notes
