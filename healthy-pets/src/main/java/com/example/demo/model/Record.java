@@ -12,15 +12,13 @@ import javax.validation.constraints.NotBlank;
 @Table(name = "records")
 public class Record {
 
-	
-	@Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
-    private long id;
-	
 	@NotBlank(message = "Name is mandatory")
     @Column(name = "name")
     private String name;
 	
+	@Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
+    private long id;
 	
 	@NotBlank(message = "Date is mandatory")
 	@Column(name = "date")
@@ -32,9 +30,9 @@ public class Record {
 	
 	public Record() {}
 	
-	public Record(String pet, long date, String event)
+	public Record(String name, long date, String event)
 	{
-		this.name = pet;
+		this.name = name;
 		this.date = date;
 		this.event = event;
 		
@@ -48,11 +46,11 @@ public class Record {
         return id;
     }
 
-	public void setPetName(String petname)
+	public void setName(String name)
 	{
-		name = petname;
+		this.name = name;
 	}
-	public String getPetName()
+	public String getName()
 	{
 		return name;
 	}
