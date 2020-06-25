@@ -46,6 +46,7 @@ public class RecordController {
 		{
 			return "add-record";
 		}
+		recordsRepository.save(record);
 		return "redirect:records-list";
 	}
 	
