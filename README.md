@@ -27,6 +27,8 @@ As the schedual table shows, for malestone 1, we simply set up the common reposi
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" />
 As the picture showed above, run the java file which called **HealthPetsApplication.java**. After run the file successfully, open the browser and go to URL: http://localhost:8080/ to see the features of the applcation we made so far.
+
+Here is the video of milestone 1. URL: https://use.vg/5Eu3i7.
 ## Release Notes
 
 Since this is the first time we try to make a web application and there is only two members in our team, we barely have a direction to the target so that we have to keep in touch and working together all the time for making our work is on the right track. We edited the project plan which we create at the very first so that it can looks more reasonable(the original task 1 is to set up the cloud server, and now is to make the common repository).<br />
