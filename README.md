@@ -17,18 +17,24 @@ Task 10: Connecting the Login page to the user database<br />
 Task 11: Realize the function of the verification of users<br />
 Task 12: Testing for the entire work<br />
 ## Schedule Table
- <img src="schedual5.png"
+ <img src="pictures/schedual5.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" />
 ## Milestone 1
 As the schedual table shows, for malestone 1, we simply set up the common repository, set up the environment(srping boot, IDE, etc), and released some basic functions for the app.
 
- <img src="p1.png"
+ <img src="pictures/p1.png"
      alt="Markdown Monster icon"
      style="float: left; margin-right: 5px;" />
 As the picture showed above, run the java file which called **HealthPetsApplication.java**. After run the file successfully, open the browser and go to URL: http://localhost:8080/ to see the features of the applcation we made so far.
 ## Release Notes
 
-Since this is the first time we try to make a web application and there is only two members in our team, we barely have a direction to the target so that we have to keep in touch all the time for making our work is on the track. We edited the project plan which we create at the very first so that it can looks more reasonable(the original task 1 is to set up the cloud server, and now is to make the common repository).<br />
+Since this is the first time we try to make a web application and there is only two members in our team, we barely have a direction to the target so that we have to keep in touch and working together all the time for making our work is on the right track. We edited the project plan which we create at the very first so that it can looks more reasonable(the original task 1 is to set up the cloud server, and now is to make the common repository).<br />
 So far we create a some basic functions for reacording the information of the pets.
+<img src="pictures/p2.png"
+     alt="Markdown Monster icon"
+     style="float: left; margin-right: 5px;" />
+ 
+Based on the pictures showed above, we could see that the app are simply functionlized the creating, recording, editing and deleting.
+
 
