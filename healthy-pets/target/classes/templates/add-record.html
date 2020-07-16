@@ -20,14 +20,14 @@
                     <form action="#" th:action="@{/records/add}" th:object="${record}" method="post">
                         <div class="row">
                             <div class="form-group col-md-8">
-                                <label for="name" class="col-form-label">Name</label> <input type="text" th:field="*{name}" class="form-control" id="name" placeholder="Name"> <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="text-danger"></span>
+                                <label for="name" class="col-form-label">Name</label> <input type="text" th:field="*{name}" class="form-control" id="name" placeholder="Pet's Name"> <span th:if="${#fields.hasErrors('name')}" th:errors="*{name}" class="text-danger"></span>
                             </div>
                             <div class="form-group col-md-8">
-                                <label for="date" class="col-form-label">Date</label> <input type="text" th:field="*{date}" class="form-control" id="date" placeholder="Date"> <span th:if="${#fields.hasErrors('date')}" th:errors="*{date}" class="text-danger"></span>
+                                <label for="date" class="col-form-label">Date</label> <input type="text" th:field="*{date}" class="form-control" id="date" placeholder="mm/dd/yyyy"> <span th:if="${#fields.hasErrors('date')}" th:errors="*{date}" class="text-danger"></span>
                             </div>
 
                             <div class="form-group col-md-8">
-                                <label for="event" class="col-form-label">Event</label> <input type="text" th:field="*{event}" class="form-control" id="event" placeholder="Event"> <span th:if="${#fields.hasErrors('event')}" th:errors="*{event}" class="text-danger"></span>
+                                <label for="event" class="col-form-label">Event</label> <input type="text" th:field="*{event}" class="form-control" id="event" placeholder="ex: Annual Vaccination"> <span th:if="${#fields.hasErrors('event')}" th:errors="*{event}" class="text-danger"></span>
                             </div>
 
                             <div class="col-md-6">

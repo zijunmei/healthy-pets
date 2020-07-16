@@ -22,7 +22,7 @@ public class Record {
 	
 	@NotBlank(message = "Date is mandatory")
 	@Column(name = "date")
-	private long date;
+	private String date;
 	
 	@NotBlank(message = "Event is mandatory")
 	@Column(name = "event")
@@ -30,7 +30,7 @@ public class Record {
 	
 	public Record() {}
 	
-	public Record(String name, long date, String event)
+	public Record(String name, String date, String event)
 	{
 		this.name = name;
 		this.date = date;
@@ -54,11 +54,11 @@ public class Record {
 	{
 		return name;
 	}
-	public void setDate(long date)
+	public void setDate(String date)
 	{
 		this.date = date;
 	}
-	public long getDate()
+	public String getDate()
 	{
 		return date;
 	}
